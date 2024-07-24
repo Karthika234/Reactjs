@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Data Types</title>
+    <script> 
+    let message = "Welcome to JavaScript";
+console.log(message);
+let result = "Hello";
+result = 'Bye';
+console.log(result);
+let counter = 120;
+console.log(typeof(counter)); // "number"
+
+counter = false; 
+console.log(typeof(counter)); // "boolean"
+
+counter = "Hi";
+console.log(typeof(counter)); // "string"
+let x = '10';
+    y = '20';
+let method = x + y;
+console.log(method);
+let eligible = false,
+    required = true;
+
+console.log(!eligible);
+console.log(!required);
+let age = 18;
+if (age >= 18) {
+  console.log('You can sign up');
+}
+function Person(name) {
+    this.name = name;
+}
+
+Person.prototype.getName = function () {
+    return this.name;
+};
+
+var john = new Person("John");
+console.log(john.getName());
+const p1 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        console.log('The first promise has resolved');
+        resolve(10);
+    }, 1 * 1000);
+
+});
+const p2 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        console.log('The second promise has rejected');
+        reject('Failed');
+    }, 2 * 1000);
+});
+const p3 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        console.log('The third promise has resolved');
+        resolve(30);
+    }, 3 * 1000);
+});
+</script>
+</head>

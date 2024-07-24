@@ -1,0 +1,22 @@
+<style>
+    div{
+        background-color: blueviolet;
+        width: 150px;
+        height:150px;
+        transition: 1s;
+    }
+    .widthmax{
+        width: 900px;
+    }
+</style>
+<div id="box"></div>
+<button onclick="change()">change Color</button>
+<script>
+    //Select box
+    var box = document.getElementById("box")
+
+    function change(){
+        box.style.backgroundColor="pink"
+        box.setAttribute("class","widthmax")
+    }
+</script>

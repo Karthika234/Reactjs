@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Demo</title>
+    </head>
+    <body>
+        <p id="one">
+            Before DOM manipulation
+        </p>
+        <h1 id ="title">
+            HelloWorld
+        </h1>
+        <script>
+            //select paragraph tag using id 
+            var para = document.getElementById("one")
+            console.log(para.textContent)
+            para.textContent="After DOM manipulation"
+            //creating h1 tag with ID "title" and set its value to Helloworld
+            var para1 = document.getElementById("title")
+            console.log(para1.textContent)
+            para.textContent="bye World"
+
+        </script>
+    </body>
+</html>

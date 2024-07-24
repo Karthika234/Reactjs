@@ -1,0 +1,47 @@
+node /tmp/kJROe1OzWz.js
+Addition operator : 57
+Subtraction operator : -33
+Multiplication operator : 540
+Mul 1 : -180
+Mul 2 : NaN
+Mul 3 :Infinity
+Division operator : 3.75
+Concatenation operator : 12 Concat
+Modulo 1 : 9
+Modulo 2 : 9
+Modulo 3 : -9
+Modulo 4 : 9
+Modulo 5 : 0.9000000000000004
+Modulo 6 : NaN
+Exponentiation 1 : 3125
+Exponentiation 2 : -625
+Exponentiation 3 : 52905.45109513719
+Exponentiation 4 : NaN
+Incremantal operator 1 : 8
+Incremantal operator 2 : 7
+Incremantal operator 3 : 8
+Incremantal operator 4 : 8
+Decremental operator 1 : 4
+Decremental operator 2 : 5
+Decremental operator 3 : 4
+Decremental operator 4 : 4
+10
+Addition Assignment operator36
+Subtraction Assignment Operator : 31
+Mul Assignment operator : 980
+Div Assignment operator : 490
+Mod Assignment operator : 2
+Leftshift : 24
+Right Shift : 3
+v1 == v2 : false
+v3 == v4 : true
+v1 != v4 : true
+Not operator : false
+Not operator : true
+And (ni&&nj&&nk) : 0
+And (nj&&nk&&nm) : 8
+si||sj : 56
+sj||sk : 78
+vu&ju :2
+ju|ji : 122
+~ji : -91
